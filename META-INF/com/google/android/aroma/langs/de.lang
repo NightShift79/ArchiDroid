@@ -35,7 +35,7 @@
 ### LANGUAGE STRING RESOURCE FILE
 #
 #   Language  : German
-#   By        : beyerservice, phoberus
+#   By        : beyerservice / NightShift79
 #
 
 #
@@ -47,7 +47,7 @@ text_back=Zurück
 text_yes=Ja
 text_no=Nein
 text_about=Über
-text_calibrating=Calibrating Tools
+text_calibrating=Kalibrieren
 text_quit=Installation Beenden
 text_quit_msg=Willst du die Installation wirklich abbrechen?
 
@@ -55,8 +55,8 @@ text_quit_msg=Willst du die Installation wirklich abbrechen?
 #-- ARCHIDROID STRINGS
 #
 common.for=für
-common.none=None
-common.replaces=Replaces
+common.none=Keine
+common.replaces=Ersetzen
 common.inverted=Invertiert
 common.experimental=EXPERIMENTAL
 common.deprecated=DEPRECATED
@@ -68,7 +68,7 @@ terms.confirm2=Respektiere die Entwickler!
 
 archidroid.tos=ArchiDroid Bedingungen
 
-archidroid.detect.fail=ArchiDroid konnte keine ArchiDroid-Installation finden. Hast du alle Daten gelöscht oder hast du eine andere ROM installiert?
+archidroid.detect.fail=ArchiDroid konnte keine ArchiDroid-Installation finden. Hast du alle Daten gelöscht oder hast du ein anders ROM installiert?
 archidroid.detect.fail.yes=Ja, ich habe kein ArchiDroid!
 archidroid.detect.fail.no=Nein, ich habe ArchiDroid!
 archidroid.detect.fail.alert.yes=OK, dann wähle ich ArchiDroid Installations-Modus aus.
@@ -86,8 +86,8 @@ archidroid.preset.custom=Angepasst
 archidroid.preset.custom.desc=Du kannst jede Einstellung während der Installation selbst anpassen
 archidroid.preset.barebones=Bare Bones
 archidroid.preset.barebones.desc=Nur ROM. Nur zum testen, wird nicht empfohlen
-archidroid.preset.previous=Previous Preset
-archidroid.preset.previous.desc=Einstellungen von vorderer Installation behalten (wenn möglich)
+archidroid.preset.previous=Vorherige Einstellungen
+archidroid.preset.previous.desc=Einstellungen von vorheriger Installation behalten (wenn möglich)
 
 archidroid.detect.previouspreset.fail=Konnte die Einstellungen nicht laden, wählen Sie bitte "Angepasst"
 
@@ -119,14 +119,14 @@ archidroid.keyboard.touchpal.desc=Empfohlen als eine tolle und flexible Swype/Cu
 archidroid.keyboard.hackers.desc=Tolle Alternative zu TouchPal wenn du keine swype/curve Funktion benötigst
 archidroid.keyboard.both.desc=Wenn du beide benutzen willst, TouchPal und Hacker's (z.B. für Terminal)
 archidroid.keyboard.stock.desc=Wenn du die Standard ROM Tastatur nutzen möchtest
-archidroid.keyboard.none.desc=No keyboard. WARNING! Don't tick if you're after full wipe! You need at least one custom keyboard before first boot!
+archidroid.keyboard.none.desc=Keine Tastatur! WARNUNG! Nach einem Full Wipe deaktiviert lassen! Du brauchst mindestens eine Tastatur vor dem ersten Boot!
 
 archidroid.bootanimation=Bootanimation
 archidroid.bootanimation.archi.desc=Neue ausgefallene ArchiDroid Bootanimation
 archidroid.bootanimation.archilegacy.desc=Alte ArchiDroid 1.X Bootanimation
 archidroid.bootanimation.logcat.desc=Ersetzt die Standard Bootanimation durch eine logcat Ausgabe - powered by logcat lite
 archidroid.bootanimation.stock.desc=Standard Bootanimation von ROM
-archidroid.bootanimation.none.desc=No bootanimation, for slightly faster bootup
+archidroid.bootanimation.none.desc=Keine Bootanimation (schnelleres booten)
 
 archidroid.other=Anderes
 archidroid.ota.desc=Empfohlen von ArchiDroid. Installation von UpdateMe apk und Aktivierung von OTA-Updates durch build.prop
@@ -143,7 +143,7 @@ archidroid.gapps.gquick.desc=Kann Google Voice stören!
 archidroid.apps.titaniumbackup.desc=Perfekte Lösung um persönliche Daten/Apps zwischen Updates zu sichern
 archidroid.apps.greenify.desc=Prktisch um jede App in den Standby zu schicken, das spart Energie
 archidroid.apps.lmt.desc=Damit kannst du einen Befehl mit einer Bildschirm-Geste ausführen, auch bekannt als pie von SlimBean
-archidroid.apps.mxplayer.desc=Vermutlcih der beste Videoplayer für Android
+archidroid.apps.mxplayer.desc=Vermutlich der beste Videoplayer für Android
 archidroid.apps.spiritfm.desc=Kostenlose FM Radio App, die mit CyanogenMod funktioniert
 archidroid.apps.bbs.desc=Erweitert die Batteriestatistik mit vielen Möglichkeiten - speziell um herauszufinden, welches Programm ständig läuft und "Wakelocks" erzeugt
 archidroid.apps.cooltool.desc=Zeigt ein paar praktische Statistiken in der Statusbar
@@ -157,7 +157,7 @@ archidroid.tweaks.buildtweaks.desc=Viele build.prop Anpassungen, inklusiv tiefer
 archidroid.tweaks.openpdroid.desc=Führe OpenPDroid Patch nach der Installation aus (falls verfügbar)
 archidroid.tweaks.nocell.desc=Wird als Bloatware (unnötige  Apps) gesehen. Deselektieren wenn du die App behalten möchtest
 
-archidroid.preset.no=Kein Preset
+archidroid.preset.no=Keine Voreinstellung
 archidroid.preset.no.desc=Nicht empfohlen, da du die meisten Optimierungen von Archi verpasst
 
 archidroid.preset.kernel.boeffla.archiperformance=ArchiDroid Performance
@@ -196,5 +196,5 @@ Bitte warte bis der Installationsassistent dein <b>ArchiDroid</b> installiert ha
 archidroid.install.finish=Der ArchiDroid Installationsassistent hat <b>ArchiDroid<b> erfolgreich installiert.\
 Drücke <b>Beenden</b> um fortzufahren.
 
-archidroid.buildtweaks.fastdormancy.desc=Untick to disable fast dormancy, may improve battery life if your provider doesn't support it
-archidroid.buildtweaks.zerowakeup.desc=Tick to enable ZeroWakeUp, it will put CPU into sleep mode (instead of deep/deeper sleep), reducing wake up delay to the minimum
+archidroid.buildtweaks.fastdormancy.desc=Haken entfernen um fast dormancy zu deaktivieren. Kann Batterielebensdauer verlängern wenn es der Anbieter nicht unterstützt.
+archidroid.buildtweaks.zerowakeup.desc=Anhaken um ZeroWakeUp zu aktivieren, die CPU wird in den Schlafmodus versetzt. Reduziert die wake up Verzögerung auf ein Minimum.
